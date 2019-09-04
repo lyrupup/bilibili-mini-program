@@ -1,0 +1,71 @@
+Page{
+    color: #666;
+}
+/* 导航栏 */
+.nav{
+    white-space: nowrap;
+    padding: 10rpx 0;
+}
+.nav_item{
+    padding: 20rpx 45rpx;
+    font-size: 30rpx;
+    display: inline-block;
+}
+.nav_item.active{
+    border-bottom: 5rpx solid #de688b;
+}
+/* 轮播图 */
+.slides{
+    margin-top: 10rpx;
+}
+.slides swiper{
+    height:220rpx;
+}
+.slides navigator{
+    width: 100%;
+    height: 100%;
+}
+.slides image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 视频列表 */
+.video_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20rpx;
+    justify-content: space-between;
+}
+.video_item{
+    width: 48%;
+    margin-bottom: 10rpx;
+
+}
+
+.video_img{
+    position: relative;
+}
+.video_img image{
+    width: 100%;
+    border-radius: 10rpx;
+}
+.video_img .video_info{
+    /* 宽度不加100%;宽度就被撑得那么大，flex水平对齐也就没用 */
+    width: 90%; 
+    position: absolute;
+    bottom: 15rpx;
+    left: 5%;
+    font-size: 30rpx;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.video_title{
+    font-size: 30rpx;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

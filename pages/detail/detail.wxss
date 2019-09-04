@@ -1,0 +1,114 @@
+.container{
+    padding: 10rpx;
+    color: rgb(46, 45, 45);
+}
+.video_wrap{
+    margin-top: 10rpx;
+}
+.video_wrap video{
+    width: 100%;
+}
+.video_title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35rpx;   
+}
+.video_info{
+    margin-top: 30rpx;
+    font-size: 28rpx;
+}
+.video_info text{
+    margin-left: 10rpx;
+}
+.video_info .author{
+    color:black;
+}
+
+/* 推荐视频 */
+.others_wrap{
+    padding: 20rpx;
+}
+.recommend_title{
+    color: black;
+    font-size: 40rpx;
+    margin-bottom: 20rpx;
+    font-weight: 400;
+}
+.others_item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15rpx 0;
+}
+.others_left{
+    width: 45%;
+}
+.others_left image{
+    width: 100%;
+    border-radius: 10rpx;
+}
+.others_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.others_right .others_title{
+    padding-top: 10rpx;
+    font-size: 35rpx;
+    color: rgb(252, 102, 127);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.others_right .others_detail{
+    font-size: 25rpx;
+    padding-bottom: 20rpx;
+}
+.others_duration{
+    font-size: 30rpx;
+    color: black;
+    margin-top: 15rpx;
+}
+.others_info text{
+    margin-right: 15rpx;
+}
+/* 评论列表  */
+.comment_wrap{
+    padding-top:20rpx;
+}
+.commnet_title{
+    font-size: 30rpx;
+    color: black;
+}
+.comment_item{
+    display: flex;
+    padding: 15rpx;
+    justify-content: space-between;
+    border-bottom: 2rpx solid #ccc;
+}
+.comment_left{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment_left image{
+    width: 100%;
+    border-radius: 50%;
+}
+.comment_right{
+    width: 80%;
+    font-size: 30rpx;
+}
+.comment_right .user_info{
+    display: flex;
+    justify-content: space-between;
+}
+.user_info text{
+    margin: 10rpx 0;
+}
+.comment_right .comment_info{
+    font-size: 28rpx;
+}
